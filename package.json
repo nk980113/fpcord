@@ -1,0 +1,38 @@
+{
+  "name": "fpcord",
+  "version": "1.0.0",
+  "description": "A Discord API wrapper made in TypeScript",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nk980113/fpcord.git"
+  },
+  "keywords": [
+    "discord",
+    "discord-api"
+  ],
+  "author": "Nick Tseng",
+  "license": "GNU-GPL-v3",
+  "bugs": {
+    "url": "https://github.com/nk980113/fpcord/issues"
+  },
+  "homepage": "https://github.com/nk980113/fpcord#readme",
+  "dependencies": {
+    "bufferutil": "^4.0.7",
+    "utf-8-validate": "^5.0.10",
+    "ws": "^8.8.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "eslint": "^8.18.0"
+  }
+}

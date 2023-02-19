@@ -1,0 +1,5 @@
+node_modules/
+.$diagram.drawio.bkp
+.$diagram.drawio.dtmp
+diagrams/*.png
+draft/
