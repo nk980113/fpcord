@@ -26,6 +26,7 @@
   "homepage": "https://github.com/nk980113/fpcord#readme",
   "dependencies": {
     "bufferutil": "^4.0.7",
+    "discord-api-types": "^0.37.38",
     "utf-8-validate": "^5.0.10",
     "ws": "^8.8.0"
   },
@@ -33,6 +34,10 @@
     "@types/ws": "^8.5.3",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
-    "eslint": "^8.18.0"
+    "eslint": "^8.18.0",
+    "eslint-plugin-tsdoc": "^0.2.17",
+    "tsup": "^6.7.0",
+    "typedoc": "^0.24.1",
+    "typescript": "^5.0.4"
   }
 }

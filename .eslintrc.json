@@ -13,7 +13,8 @@
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "eslint-plugin-tsdoc"
     ],
     "rules": {
         "arrow-spacing": [
@@ -40,6 +41,7 @@
             "error", 
             "property"
         ],
+        "eol-last": "error",
         "handle-callback-err": "off",
         "indent": [
             "error",
@@ -79,7 +81,8 @@
                 "maxBOF": 0 
             }
         ],
-        "no-shadow": [
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": [
             "error", 
             { 
                 "allow": [
@@ -117,6 +120,7 @@
         "space-infix-ops": "error",
         "space-unary-ops": "error",
         "spaced-comment": "error",
-        "yoda": "error"
+        "yoda": "error",
+        "tsdoc/syntax": "warn"
     }
 }
