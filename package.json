@@ -10,6 +10,7 @@
   "files": [
     "dist"
   ],
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nk980113/fpcord.git"
@@ -25,8 +26,11 @@
   },
   "homepage": "https://github.com/nk980113/fpcord#readme",
   "dependencies": {
+    "@types/ramda": "^0.29.0",
     "bufferutil": "^4.0.7",
     "discord-api-types": "^0.37.38",
+    "fluture": "^14.0.0",
+    "ramda": "^0.29.0",
     "utf-8-validate": "^5.0.10",
     "ws": "^8.8.0"
   },
